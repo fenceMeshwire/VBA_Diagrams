@@ -5,6 +5,8 @@ Sub create_diagram_sheet()
 Dim rngResult As Range
 Dim wksSheet As Worksheet
 Set wksSheet = Sheet1
+    
+Call create_data(wksSheet)
 
 Set rngResult = wksSheet.UsedRange
 
